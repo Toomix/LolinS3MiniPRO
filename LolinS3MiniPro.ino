@@ -117,22 +117,22 @@ void loop() {
       qmiData = "ACC x: " + String(acc.x);
       displayText(4, 4, qmiData, color, true);
       qmiData = "ACC y: " + String(acc.y);
-      displayText(4, 10, qmiData, color, false);
+      displayText(4, 14, qmiData, color, false);
       qmiData = "ACC z: " + String(acc.z);
-      displayText(4, 20, qmiData, color, false);
+      displayText(4, 24, qmiData, color, false);
     }
 
     if (qmi.getGyroscope(gyr.x, gyr.y, gyr.z)) {
       qmiData = "GYR x: " + String(gyr.x);
-      displayText(4, 40, qmiData, color, false);
+      displayText(4, 44, qmiData, color, false);
       qmiData = "GYR y: " + String(gyr.y);
-      displayText(4, 50, qmiData, color, false);
+      displayText(4, 54, qmiData, color, false);
       qmiData = "GYR z: " + String(gyr.z);
-      displayText(4, 60, qmiData, color, false);
+      displayText(4, 64, qmiData, color, false);
     }
 
     qmiData = "TMP: " + String(qmi.getTemperature_C()) + " *C";
-    displayText(4, 80, qmiData, color, false);
+    displayText(4, 84, qmiData, color, false);
   }
 
 
