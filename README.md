@@ -19,4 +19,12 @@ https://github.com/lewisxhe/SensorLib
 TFT Displej 
 https://github.com/adafruit/Adafruit_GC9A01A
 
+![image](https://github.com/user-attachments/assets/0afe9842-d2e0-41c2-bb28-8c5e1fc40fd2)
+
+![image](https://github.com/user-attachments/assets/e4630cda-2c9a-41d4-8066-4f3337769cc2)
+
+
+
+
+
 
