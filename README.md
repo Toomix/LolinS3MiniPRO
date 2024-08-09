@@ -25,7 +25,7 @@ V souboru *Adafruit_GC9A01A.h* je třeba změnit rozlišení displeje na 128x128
 #define GC9A01A_TFTHEIGHT 128 ///< Display height in pixels
 ```
 
-Pokud se chcete na displej dívat tak, že budou pod ním tlačítka (jako na obrázcích níže), je nutné v souboru *Adafruit_GC9A01A.cpp* najít na řádku 229 tento kód
+Pokud se chcete na displej dívat tak, že budou pod ním tlačítka (jako na obrázcích níže), je nutné v souboru *Adafruit_GC9A01A.cpp* najít v metodě *setRotation* na řádku 229 tento kód
 ```
 m = (MADCTL_MX | MADCTL_BGR);
 ```
